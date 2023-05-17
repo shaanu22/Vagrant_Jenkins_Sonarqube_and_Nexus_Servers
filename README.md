@@ -1,4 +1,4 @@
-# jenkins-vagran-ubuntu
+# jenkins-vagrant-ubuntu
 Jenkins Vagrant setup config 
 this will allow you to create Jenkins mahcine over ubuntu 20 OS in secods for testing 
 ensure to instaill virtualbox and vagrant before proceeding 
