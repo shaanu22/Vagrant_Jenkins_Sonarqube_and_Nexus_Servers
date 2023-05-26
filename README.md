@@ -14,7 +14,7 @@ vagrant up
 - vagrant ssh nexus 
 - vargrant ssh sonar
 
-# Machnies web ports 
+# Machines web ports 
 - jenkins http port is 8080 
 - Sonarqube port is 9000 user/pass is : admin/admin
 
