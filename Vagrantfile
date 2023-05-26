@@ -24,7 +24,7 @@ config.vm.define "nexus" do |nexus|
     vb2.name="nexus"
     vb2.gui = false
     vb2.cpus = 2
-    vb2.memory = "2096"
+    vb2.memory = "3096"
   end
 
   nexus.vm.provision "shell" do |shell|
@@ -39,7 +39,7 @@ config.vm.define "sonar" do |sonar|
     vb.name="sonar"
     vb.gui = false
     vb.cpus = 2
-    vb.memory = "2096"
+    vb.memory = "4096"
   end
 
   sonar.vm.provision "shell" do |shell|

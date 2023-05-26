@@ -33,3 +33,5 @@ echo 'run_as_user="nexus"' > /opt/nexus/$NEXUSDIR/bin/nexus.rc
 systemctl daemon-reload
 systemctl start nexus
 systemctl enable nexus
+iptables -F
+sudo iptables-save > /etc/sysconfig/iptables
