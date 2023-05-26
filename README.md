@@ -6,8 +6,10 @@ Jenkins Vagrant setup config this will allow you to create Jenkins machine over 
 # run the below commands in side the download directory 
 vagrant up 
 
-# to access the machine 
-vagrant ssh
+# to access the machines 
+vagrant ssh jenkins
+vagrant ssh nexus 
+vargrant ssh sonar
 
-# jenkins port is 8080 
+# jenkins http port is 8080 
 
