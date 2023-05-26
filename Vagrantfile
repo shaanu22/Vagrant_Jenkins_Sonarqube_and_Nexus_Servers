@@ -23,7 +23,7 @@ config.vm.define "nexus" do |nexus|
   nexus.vm.provider "virtualbox" do |vb2|
     vb2.name="nexus"
     vb2.gui = false
-    vb2.cpus = 2
+    vb2.cpus = 3
     vb2.memory = "3096"
   end
 
