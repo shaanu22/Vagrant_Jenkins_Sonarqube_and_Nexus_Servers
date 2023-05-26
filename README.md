@@ -2,6 +2,8 @@
 Automating the setup of 3 machines Nexus , Sonarqube , Jenkins 
 this will facilitate testing complete pipelines for Devops
 
+ths main setup shell scripts was created from this repo https://github.com/devopshydclub/vprofile-project/tree/ci-jenkins/userdata
+
 # download the files 
 
 git clone https://github.com/omarfadl/jenkins-Sonar-Nexus-vagrant-ubuntu.git
