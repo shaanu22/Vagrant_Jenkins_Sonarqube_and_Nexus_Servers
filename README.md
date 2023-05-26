@@ -16,5 +16,5 @@ vagrant up
 
 # Machines web ports 
 - jenkins http port is 8080 
-- Sonarqube port is 9000 user/pass is : admin/admin
+- Sonarqube port is 9000 & 80 user/pass is : admin/admin
 
