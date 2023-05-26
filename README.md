@@ -10,9 +10,9 @@ git clone https://github.com/omarfadl/jenkins-Sonar-Nexus-vagrant-ubuntu.git
 vagrant up 
 
 # to access the machines 
-vagrant ssh jenkins
-vagrant ssh nexus 
-vargrant ssh sonar
+- vagrant ssh jenkins
+- vagrant ssh nexus 
+- vargrant ssh sonar
 
 # Machnies web ports 
 - jenkins http port is 8080 
