@@ -1,6 +1,6 @@
 # Jenkins SonarQube Nexus vagrant machines
-This is setup for 3 machines Nexus , Sonarqube , Jenkins 
-this will facilitate testing complete pipelines 
+Automating the setup of 3 machines Nexus , Sonarqube , Jenkins 
+this will facilitate testing complete pipelines for Devops
 
 # download the files 
 
