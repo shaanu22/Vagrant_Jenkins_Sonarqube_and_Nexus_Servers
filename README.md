@@ -2,7 +2,7 @@
 Automating the setup of 3 machines Nexus , Sonarqube , Jenkins 
 this will facilitate testing complete pipelines for Devops
 
-ths main setup shell scripts was created from this repo https://github.com/devopshydclub/vprofile-project/tree/ci-jenkins/userdata
+ths main setup shell scripts was created from this repo with minor modifications https://github.com/devopshydclub/vprofile-project/tree/ci-jenkins/userdata
 
 # download the files 
 
@@ -19,6 +19,7 @@ vagrant up
 # Machines web ports 
 - jenkins http port is 8080 
 - Sonarqube port is 9000 & 80 user/pass is : admin/admin
+- nexus port 8081
 
 # Disclaimer
 Please note that while these scripts have been created with care, they are provided as-is, without any warranty or guarantee of performance. Use them at your own risk.
