@@ -35,3 +35,7 @@ systemctl start nexus
 systemctl enable nexus
 iptables -F
 sudo iptables-save > /etc/sysconfig/iptables
+yum install iptables-services -y
+systemctl enable iptables.service
+yum remove iptables -y
+yum install dhclient.x86_64 -y
