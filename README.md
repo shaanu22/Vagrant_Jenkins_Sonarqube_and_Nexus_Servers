@@ -1,22 +1,21 @@
-# Jenkins SonarQube Nexus vagrant machines
-Automating the setup of 3 machines Nexus , Sonarqube , Jenkins 
-this will facilitate testing complete pipelines for Devops
+# Provisioning Jenkins, Sonarqube, and Nexus VMs Using vagrant
+Automating the setup of 3 machines: Jenkins, Sonarqube, and Nexus to facilitate testing complete CICD pipelines
 
-ths main setup shell scripts was created from this repo with minor modifications https://github.com/devopshydclub/vprofile-project/tree/ci-jenkins/userdata
+The main setup scripts were created from this repo with minor modifications: https://github.com/devopshydclub/vprofile-project/tree/ci-jenkins/userdata
 
-# download the files 
+# Clone the files 
 
-git clone https://github.com/omarfadl/jenkins-Sonar-Nexus-vagrant-ubuntu.git
+git clone https://github.com/shaanu22/Vagrantfile_for_Jenkins_Sonarqube_and_Nexus_Servers.git
 
-# run the below commands in side the download directory 
+# Run the below commands inside the download directory 
 vagrant up 
 
-# to access the machines 
+# To access the machines:
 - vagrant ssh jenkins
 - vagrant ssh nexus 
 - vargrant ssh sonar
 
-# Machines web ports 
+# Machines' web ports: 
 - jenkins http port is 8080 
 - Sonarqube port is 9000 & 80 user/pass is : admin/admin
 - nexus port 8081
